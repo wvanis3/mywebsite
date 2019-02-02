@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Orbitron";
+  src: url("/fonts/Orbitron-Regular.ttf") format("ttf")
+}
+
+#pageName {
+  font-family: "Orbitron";
+  font-size: 1.50rem;
+}
