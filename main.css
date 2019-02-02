@@ -1,7 +1,10 @@
 @font-face {
   font-family: "Orbitron";
-  src: url("/fonts/Orbitron-Regular.ttf") format("ttf")
+  src: url("fonts/Orbitron-Regular.ttf") format("truetype");
+  src: local("Orbitron");
 }
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans');
 
 #pageName {
   font-family: "Orbitron";
@@ -10,4 +13,10 @@
 
 #heading {
   font-family: "Orbitron";
+  font-size: 32px;
+
+}
+
+.navbar > * {
+  font-family: "Noto Sans";
 }
